@@ -30,7 +30,7 @@ function Home() {
             and served on a soft, toasted bun. Whether you crave classic, cheesy, or spicy, 
             we’ve got the perfect burger for you.
           </p>
-          <button className="order-btn">Order Now</button>
+          <Link to="/menu"><button className="order-btn">Order Now</button></Link>
         </div>
 
         <div className="hero-image">
